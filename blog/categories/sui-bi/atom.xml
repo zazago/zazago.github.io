@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 随笔 | zaza]]></title>
+  <link href="http://zazago.github.io/blog/categories/sui-bi/atom.xml" rel="self"/>
+  <link href="http://zazago.github.io/"/>
+  <updated>2013-07-09T23:33:42+08:00</updated>
+  <id>http://zazago.github.io/</id>
+  <author>
+    <name><![CDATA[zaza]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[重新出发]]></title>
+    <link href="http://zazago.github.io/blog/2013/06/17/zhong-xin-chu-fa/"/>
+    <updated>2013-06-17T16:32:00+08:00</updated>
+    <id>http://zazago.github.io/blog/2013/06/17/zhong-xin-chu-fa</id>
+    <content type="html"><![CDATA[<h4>重新出发</h4>
+
+<p>之前安装的Octopress被我给删掉了&hellip;写的那篇Hello World也删掉了，原因:我一点都不会不会用Octopress= =！。</p>
+
+<h4>再次安装Octopress的发现</h4>
+
+<p>Markdown语法</p>
+
+<ul>
+<li>Mou编辑器下使用<code>'command+R'</code>可以查看Markdown Syntax Reference(不熟悉的地方直接参考这个写)</li>
+</ul>
+
+
+<p>Octopress主题</p>
+
+<ul>
+<li>Google了一下Octopress主题，找到了<a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">这个</a>，里面提供了一二十个主题，足以挑选出一个自己喜欢的。</li>
+</ul>
+
+
+<h4>本博主题<a href="https://github.com/chinghanho/octopress-theme-dropbot">Dropbot</a></h4>
+
+<p>我所使用的主题，作者有在他github项目中的README.md中提到如何增加About页面，照着他的方法做就行了。<br/>
+如何在要增加第四个页面？其实我也不懂…，于是我给<a href="http://about.chh.tw/">作者</a>发去了一封邮件，得到了以下详细的回复：</p>
+
+<blockquote><p>Octopress 不會主動加進新的page，你要在<a href="https://github.com/chinghanho/octopress-theme-dropbot/blob/5ead44cae472967d14f3547fa67f7fc42fab6a28/source/_includes/custom/navigation.html">這個檔案</a>加上新page的HTML，例如：</p>
+
+<p><code>
+&lt;li&gt;&lt;a href="http://zazago.github.io/new"&gt;&lt;i class="icon-xxx"&gt;&lt;/i&gt;New Page&lt;/a&gt;&lt;span class="divider"&gt;&lt;/span&gt;&lt;/li&gt;
+</code></p>
+
+<p>這時你可能需要新的 font icon：<a href="http://icomoon.io/">IcoMoon</a>。</p>
+
+<p>此外，因為整個 page 設計只有 800px，如果導航欄上增加為四個連結，空間會有點擠，你可能需要在<a href="https://github.com/chinghanho/octopress-theme-dropbot/blob/5ead44cae472967d14f3547fa67f7fc42fab6a28/sass/custom/_layout.scss#L8">這個地方</a>修改 <code>$max-width</code>。</p></blockquote>
+
+<p>感谢作者的详细回复，照着上面做就可以多增加页面。</p>
+
+<h4>搭建Octopress</h4>
+
+<p>想要搭建Octopress可以参考下面的blog:</p>
+
+<ul>
+<li> <a href="http://iiiyu.com/2012/02/07/how-to-install-octopress-on-heroku/">参考的文章连接1</a></li>
+<li> <a href="http://blog.eddie.com.tw/2011/10/11/how-to-install-octopress-on-heroku/">参考的文章连接2</a></li>
+<li> <a href="http://blog.devtang.com/blog/2012/02/10/setup-blog-based-on-github/">参考的文章连接3</a></li>
+<li> <a href="http://firestudio.cn/blog/2013/01/05/ru-he-tong-guo-github-yu-octopress-lai-da-jian-zi-ji-de-bo-ke/">参考的文章连接4</a></li>
+<li> <a href="http://markdown.tw/#blockquote">Markdown语法1</a></li>
+<li> <a href="http://daringfireball.net/projects/markdown/basics">Markdown语法2</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
