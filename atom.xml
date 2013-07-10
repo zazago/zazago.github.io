@@ -4,7 +4,7 @@
   <title><![CDATA[zaza]]></title>
   <link href="http://zazago.github.io/atom.xml" rel="self"/>
   <link href="http://zazago.github.io/"/>
-  <updated>2013-07-10T00:36:51+08:00</updated>
+  <updated>2013-07-10T13:22:35+08:00</updated>
   <id>http://zazago.github.io/</id>
   <author>
     <name><![CDATA[zaza]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[曾经在stackoverflow搜到的好问答]]></title>
+    <link href="http://zazago.github.io/blog/2013/07/10/ios-stackoverflow/"/>
+    <updated>2013-07-10T12:25:00+08:00</updated>
+    <id>http://zazago.github.io/blog/2013/07/10/ios-stackoverflow</id>
+    <content type="html"><![CDATA[<h4>前记</h4>
+
+<p>每次碰到一些实现上困惑的地方，都要通过搜索引擎来搜索答案，英文关键字搜索的话搜出来的基本上是出自stackoverflow，这是一个超棒的问答社区，里面有好多经典的问答，就是全英文看着有点吃力+蛋疼，就权当顺便加强一下英语。<br/>
+这篇文章就当做笔记，记录那些自己曾经在stackoverflow上搜到的解决方案。持续更新吧…</p>
+
+<ol>
+<li>scrollview按需要设置page大小：<a href="http://stackoverflow.com/questions/1220354/uiscrollview-horizontal-paging-like-mobile-safari-tabs/1373096#1373096">UIScrollView horizontal paging like Mobile Safari tabs</a><br/>
+此外还找到了一篇博文，也记录着这个解决办法，<a href="http://ztpala.com/2011/06/22/customize-page-size-uiscrollview/">狂点链接。</a></li>
+<li></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[最近发生的事]]></title>
