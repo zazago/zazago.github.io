@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: ios | zaza]]></title>
+  <title><![CDATA[Category: IOS | zaza]]></title>
   <link href="http://zazago.github.io/blog/categories/ios/atom.xml" rel="self"/>
   <link href="http://zazago.github.io/"/>
-  <updated>2013-07-10T21:06:28+08:00</updated>
+  <updated>2013-07-10T21:26:41+08:00</updated>
   <id>http://zazago.github.io/</id>
   <author>
     <name><![CDATA[zaza]]></name>
@@ -30,6 +30,58 @@
 <li></li>
 </ol>
 
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How to get UIViewController of UIView's superview]]></title>
+    <link href="http://zazago.github.io/blog/2013/06/18/get-uiviewcontroller/"/>
+    <updated>2013-06-18T21:40:00+08:00</updated>
+    <id>http://zazago.github.io/blog/2013/06/18/get-uiviewcontroller</id>
+    <content type="html"><![CDATA[<h4>前言</h4>
+
+<p>之前做的项目页面间的push切换效果从来没有用Navigation push的方法来实现，而是使用Scrollview方法来实现push效果。后者的实现虽说效果一样，但是麻烦(要实现切换效果的子页面都要增加一个delegate)且代码量又增多，遂在今天开始的新项目中彻底的不用旧方法。</p>
+
+<p>这个项目就安排了我自己一个人完成，fightting！</p>
+
+<h4>碰到的问题</h4>
+
+<p>首先，我在<code>AppDelegate.m</code>里面声明了<code>rootViewController = navigationController</code>。</p>
+
+<pre><code>self.m_MainViewController = [[[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil]autorelease];
+navigationController = [[UINavigationController alloc] initWithRootViewController:self.m_MainViewController];
+self.window.rootViewController = navigationController;
+</code></pre>
+
+<p>我在<code>MainViewController</code>中使用addsubview的方法add了<code>ViewControllerA.view</code>，点击<code>ViewControllerA.view</code>页面里的一个Button，我希望能触发的事件实现push页面的功能，把页面push到新的<code>ViewControllerB</code>。于是我开开心心的直接</p>
+
+<pre><code>[self.navigationController pushViewController:m_SignInViewController animated:YES];
+</code></pre>
+
+<p>之后测试发现一点效果也没有。</p>
+
+<h4>解决思路</h4>
+
+<p>没能实现效果的原因其实是由于ViewControllerA没有<code>navigationController</code>，你会发现在ViewControllerA里<code>NSLog(@"%@",self.navigationController)</code>打印出来的结果是<code>null</code>。<br/>
+一开始想到的实现方法就是在ViewControllerA中写一个delegate，到MainViewController中实现delegate方法，在所实现的方法里面push就可以了，这个方法可行，可是又要增加delegate，无形中又把一个简单的实现变复杂。<br/>
+没有思路，google时关键字都不晓得怎么下手，跟超哥一番讨论之后，得到了一个思路，就是得到ViewControllerA.view的superview的Controller(好绕,意思应该有清楚)。自己也觉得可行，遂google去。感谢超哥！<br/>
+搜索关键字<code>ios  如何得到superview的controller</code>，结果的前两个StackOverflow的回答给出了解决的答案。<br/>
+<a href="http://stackoverflow.com/questions/2309569/how-to-get-uiviewcontroller-of-a-uiviews-superview-in-iphone-sdk">这个链接</a>里面给出的回答是这样的：<br/>
+<img src="/images/2013_06_18_1.png" title="Title" alt="alt text" /><br/>
+回答者说了，不能直接获得，但是可以通过responder得到。</p>
+
+<p>代码的解析：</p>
+
+<blockquote><p>1.一个for循环遍历<code>[self superview]</code>，判断条件是next是否为空。 <br/>
+2.这句不懂什么意思。<br/>
+3.判断<code>nextResponder</code>是不是属于<code>UIViewController</code>的一个实例，是的话就返回<code>nextResponder</code>。</p></blockquote>
+
+<p>通过返回的<code>UIViewController</code>后</p>
+
+<pre><code>[self.UIViewController.navigationController pushViewController:m_SignInViewController animated:YES];
+</code></pre>
+
+<p>就可以实现想要的效果了。</p>
 ]]></content>
   </entry>
   
