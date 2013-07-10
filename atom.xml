@@ -4,7 +4,7 @@
   <title><![CDATA[zaza]]></title>
   <link href="http://zazago.github.io/atom.xml" rel="self"/>
   <link href="http://zazago.github.io/"/>
-  <updated>2013-07-10T21:29:33+08:00</updated>
+  <updated>2013-07-10T21:30:58+08:00</updated>
   <id>http://zazago.github.io/</id>
   <author>
     <name><![CDATA[zaza]]></name>
@@ -18,7 +18,7 @@
     <link href="http://zazago.github.io/blog/2013/07/10/ios-stackoverflow/"/>
     <updated>2013-07-10T12:25:00+08:00</updated>
     <id>http://zazago.github.io/blog/2013/07/10/ios-stackoverflow</id>
-    <content type="html"><![CDATA[<h4>前记</h4>
+    <content type="html"><![CDATA[<h3>前记</h3>
 
 <p>每次碰到一些实现上困惑的地方，都要通过搜索引擎来搜索答案，英文关键字搜索的话搜出来的基本上是出自stackoverflow，这是一个超棒的问答社区，里面有好多经典的问答，就是全英文看着有点吃力+蛋疼，就权当顺便加强一下英语。</p>
 
@@ -26,7 +26,7 @@
 
 <ol>
 <li>scrollview按需要设置page大小：<a href="http://stackoverflow.com/questions/1220354/uiscrollview-horizontal-paging-like-mobile-safari-tabs/1373096#1373096">UIScrollView horizontal paging like Mobile Safari tabs</a><br/>
-此外还找到了一篇博文，也记录着这个解决办法，<a href="http://ztpala.com/2011/06/22/customize-page-size-uiscrollview/">狂点链接。</a></li>
+此外还找到了一篇博文，也记录着这个解决办法，点[这里]。(<a href="http://ztpala.com/2011/06/22/customize-page-size-uiscrollview/">http://ztpala.com/2011/06/22/customize-page-size-uiscrollview/</a>)</li>
 <li></li>
 </ol>
 
