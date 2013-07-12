@@ -4,7 +4,7 @@
   <title><![CDATA[zaza]]></title>
   <link href="http://zazago.github.io/atom.xml" rel="self"/>
   <link href="http://zazago.github.io/"/>
-  <updated>2013-07-10T21:30:58+08:00</updated>
+  <updated>2013-07-12T10:05:33+08:00</updated>
   <id>http://zazago.github.io/</id>
   <author>
     <name><![CDATA[zaza]]></name>
@@ -26,7 +26,7 @@
 
 <ol>
 <li>scrollview按需要设置page大小：<a href="http://stackoverflow.com/questions/1220354/uiscrollview-horizontal-paging-like-mobile-safari-tabs/1373096#1373096">UIScrollView horizontal paging like Mobile Safari tabs</a><br/>
-此外还找到了一篇博文，也记录着这个解决办法，点[这里]。(<a href="http://ztpala.com/2011/06/22/customize-page-size-uiscrollview/">http://ztpala.com/2011/06/22/customize-page-size-uiscrollview/</a>)</li>
+此外还找到了一篇博文，也记录着这个解决办法，点<a href="http://ztpala.com/2011/06/22/customize-page-size-uiscrollview/">这里</a>。</li>
 <li></li>
 </ol>
 
