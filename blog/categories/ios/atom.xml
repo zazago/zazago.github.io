@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ios | zaza]]></title>
   <link href="http://zazago.github.io/blog/categories/ios/atom.xml" rel="self"/>
   <link href="http://zazago.github.io/"/>
-  <updated>2013-07-12T10:05:33+08:00</updated>
+  <updated>2013-07-15T21:34:24+08:00</updated>
   <id>http://zazago.github.io/</id>
   <author>
     <name><![CDATA[zaza]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[ios开发中常用的第三方开源库]]></title>
+    <link href="http://zazago.github.io/blog/2013/07/12/ioschang-yong-de-di-san-fang-kai-yuan-ku/"/>
+    <updated>2013-07-12T10:07:00+08:00</updated>
+    <id>http://zazago.github.io/blog/2013/07/12/ioschang-yong-de-di-san-fang-kai-yuan-ku</id>
+    <content type="html"><![CDATA[<h3>本篇持续更新中…</h3>
+
+<p>作为拿来主义者，开发过程中更多的是想要利用大量的已实现的第三方开源库来提高应用开发速度和应用开发质量。<br/>
+下文列出自己遇到的看到的第三方开源库。</p>
+
+<h3>MKNetworkKit</h3>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[曾经在stackoverflow搜到的好问答]]></title>
