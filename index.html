@@ -238,9 +238,23 @@
 <p>这篇文章就当做笔记，记录那些自己曾经在stackoverflow上搜到的解决方案。持续更新吧…</p>
 
 <ol>
-<li>scrollview按需要设置page大小：<a href="http://stackoverflow.com/questions/1220354/uiscrollview-horizontal-paging-like-mobile-safari-tabs/1373096#1373096">UIScrollView horizontal paging like Mobile Safari tabs</a><br/>
-此外还找到了一篇博文，也记录着这个解决办法，点<a href="http://ztpala.com/2011/06/22/customize-page-size-uiscrollview/">这里</a>。</li>
-<li></li>
+<li><p>scrollview按需要设置page大小：<a href="http://stackoverflow.com/questions/1220354/uiscrollview-horizontal-paging-like-mobile-safari-tabs/1373096#1373096">UIScrollView horizontal paging like Mobile Safari tabs</a><br/>
+此外还找到了一篇博文，也记录着这个解决办法，点<a href="http://ztpala.com/2011/06/22/customize-page-size-uiscrollview/">这里</a>。</p></li>
+<li><p>UIButton Long Press Event(Button长按事件)。 <a href="http://stackoverflow.com/questions/6179347/uibutton-long-press-event">链接</a></p>
+
+<pre><code>UILongPressGestureRecognizer *longPress = [[UILongPressGestureRecognizer alloc] init];
+[longPress addTarget:self action:@selector(longPress:)];
+[self.button addGestureRecognizer:longPress];
+[longPress release];
+-------------------------------------------------------------------------------
+- (void)longPress:(UILongPressGestureRecognizer*)gesture
+{
+    if ( gesture.state == UIGestureRecognizerStateEnded )
+    {
+         NSLog(@"Long Press");
+    }
+}
+</code></pre></li>
 </ol>
 
 </div>
