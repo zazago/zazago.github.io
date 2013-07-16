@@ -4,7 +4,7 @@
   <title><![CDATA[zaza]]></title>
   <link href="http://zazago.github.io/atom.xml" rel="self"/>
   <link href="http://zazago.github.io/"/>
-  <updated>2013-07-16T09:29:54+08:00</updated>
+  <updated>2013-07-16T14:55:07+08:00</updated>
   <id>http://zazago.github.io/</id>
   <author>
     <name><![CDATA[zaza]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[产品设计之工具篇]]></title>
+    <link href="http://zazago.github.io/blog/2013/07/16/product-design/"/>
+    <updated>2013-07-16T14:39:00+08:00</updated>
+    <id>http://zazago.github.io/blog/2013/07/16/product-design</id>
+    <content type="html"><![CDATA[<p>今天和在做产品策划的高中舍友闲聊，推荐了三种他工作中用到的软件，抽空试试。<br/>
+1.  <a href="http://www.axure.com/">Axure</a><br/>
+2.  <a href="http://uid.cdc.tencent.com/">UIDesigner</a><br/>
+3.  <a href="http://balsamiq.com/">Balsamiq Mockups</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[蔡小姐]]></title>

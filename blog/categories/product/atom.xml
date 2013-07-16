@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: product | zaza]]></title>
+  <link href="http://zazago.github.io/blog/categories/product/atom.xml" rel="self"/>
+  <link href="http://zazago.github.io/"/>
+  <updated>2013-07-16T14:55:07+08:00</updated>
+  <id>http://zazago.github.io/</id>
+  <author>
+    <name><![CDATA[zaza]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[产品设计之工具篇]]></title>
+    <link href="http://zazago.github.io/blog/2013/07/16/product-design/"/>
+    <updated>2013-07-16T14:39:00+08:00</updated>
+    <id>http://zazago.github.io/blog/2013/07/16/product-design</id>
+    <content type="html"><![CDATA[<p>今天和在做产品策划的高中舍友闲聊，推荐了三种他工作中用到的软件，抽空试试。<br/>
+1.  <a href="http://www.axure.com/">Axure</a><br/>
+2.  <a href="http://uid.cdc.tencent.com/">UIDesigner</a><br/>
+3.  <a href="http://balsamiq.com/">Balsamiq Mockups</a></p>
+]]></content>
+  </entry>
+  
+</feed>
