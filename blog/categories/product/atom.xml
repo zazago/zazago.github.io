@@ -4,7 +4,7 @@
   <title><![CDATA[Category: product | zaza]]></title>
   <link href="http://zazago.github.io/blog/categories/product/atom.xml" rel="self"/>
   <link href="http://zazago.github.io/"/>
-  <updated>2013-07-17T14:22:04+08:00</updated>
+  <updated>2013-07-17T17:38:17+08:00</updated>
   <id>http://zazago.github.io/</id>
   <author>
     <name><![CDATA[zaza]]></name>
@@ -12,6 +12,41 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Balsamiq Mockups工具初体验]]></title>
+    <link href="http://zazago.github.io/blog/2013/07/17/products-tools-balsamiq-mockups/"/>
+    <updated>2013-07-17T16:46:00+08:00</updated>
+    <id>http://zazago.github.io/blog/2013/07/17/products-tools-balsamiq-mockups</id>
+    <content type="html"><![CDATA[<p><img src="https://photos-1.dropbox.com/t/0/AACjsUInsIpWn67d1O77CXtiE7XrsOhZnNaslgqJRqKEoQ/12/193556446/png/32x32/3/_/1/2/D5C089D6-B4F9-41C3-8C8C-3BD00CA1FED3.png/KuE3RwU1H4ckq2ymk7F8CLOimDjr3YeTTMMK1YqdxEc?size=1024x768" alt="Balsamiq Mockups" /></p>
+
+<h3>Balsamiq Mockups简介</h3>
+
+<p>原型开发软件，可以进行软件草图的绘制。</p>
+
+<h3>Balsamiq Mockups初体验</h3>
+
+<h4>软件界面</h4>
+
+<p><img src="https://photos-2.dropbox.com/t/0/AABUVhouRRXIkGGnVes12c4z6NraJ3N6w70CIQc3pfsGhQ/12/193556446/png/32x32/3/_/1/2/CB7848D0-0F51-4AA4-B83B-D103FDCBFB75.png/sU7fhZlgxxpR5SGR_oCdA4NPlM3Qx1nPTT6ipwfxaDs?size=1024x768" alt="mac版软件界面" />
+该软件分为三个区块，第一个区块是包含撤销、复制、黏贴等操作的区域；第二个区域是控件区域，在里面可以找到大部分的控件、图形进行原型的绘画(直接拖动至绘画区或双击即可)，基本上还是能满足草图的绘画要求的；第三个区域是绘画区，你可以在里面进行绘画，如大小颜色等的修改，文字的修改等。</p>
+
+<h4>随手玩一下</h4>
+
+<p>随便拖几个控件进行绘画，就拿iphone这个控件举例，点击控件会出现编辑框
+<img src="https://photos-3.dropbox.com/t/0/AABVENpW7VyRt3wf_Qbi3UegxEM5wKB8gfNp-K8DnSNUUA/12/193556446/png/32x32/3/_/1/2/A29819E5-F45E-4344-8CD7-6F07A10B3788.png/G-vJlH-MjAzkRZjpCXNjTNuhrDPaM7-9yZmoQGxQX_0?size=1024x768" alt="编辑框" /><br/>
+在编辑框里面可以进行iphone4/5的选择大小,背景，电池栏等的设置，为了防止无意间拖动控件，也可以点击锁按钮锁住控件(右键点击控件选择解锁项即可解锁)。具体一些操作还是在实践中进行摸索，基本都不难。</p>
+
+<h4>导出项目</h4>
+
+<p>导出绘制的图片可以选择导出为png或者pdf，当绘制内容很多的时候导出成pdf还是很方便的。<br/>
+<img src="https://photos-1.dropbox.com/t/0/AACZFGH89SvpUxld-JQ9pzeJS-JpZ5NwOvOlitVBAYDCvg/12/193556446/png/32x32/3/_/1/2/E0807C85-9260-4198-B407-682D48F903D3.png/VBYDr7-KLdY_r2uqH5PSHcAAM3NiXLOPHHwfrklbyac?size=1024x768" alt="导出" /></p>
+
+<h4>结束语</h4>
+
+<p>使用Mockups来绘制草图还是很方便的，提供的控件库也基本能满足需要，如果在以后工作中碰到例如绘制草图这样的工作任务，Mockups应该会成为我的选择。之前也有接触另一款应用<a href="http://popapp.in/">POP</a>，POP需要对所绘制的草图进行拍摄，然后再图片上增加交互动作就可以进行交互，也许这两款工具结合使用能收到不错的效果。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[产品设计之工具篇]]></title>
