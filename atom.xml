@@ -4,7 +4,7 @@
   <title><![CDATA[沉淀屋]]></title>
   <link href="http://zazago.github.io/atom.xml" rel="self"/>
   <link href="http://zazago.github.io/"/>
-  <updated>2013-07-25T21:21:32+08:00</updated>
+  <updated>2013-07-25T21:23:10+08:00</updated>
   <id>http://zazago.github.io/</id>
   <author>
     <name><![CDATA[zaza]]></name>
@@ -36,9 +36,11 @@
 
 <p>下载<a href="https://github.com/kattrali/cocoapods-xcode-plugin" title="CocoaPods Xcode Plugin">CocoaPods Xcode Plugin</a>插件，运行后重启Xcode5即可使用插件。</p>
 
-<p>用Xcode5打开项目，在Product里找到CocoaPods，点击Create Podfile创建Podfile文件.<br/>
-<img src="https://photos-2.dropbox.com/t/0/AADk2GedLyFZ8CdzYBFMHwv9XoMDhqEsRRtQXtXVcacZfQ/12/193556446/png/32x32/3/_/1/2/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202013-07-25%20%E4%B8%8B%E5%8D%888.49.43.png/9Puthwl2T9NlnHVH5aQn77k08Rip3pe55D6UlweJJk8?size=1024x768" title="image1" alt="explain image1" /> <br/>
-如下输入platform、支持的最低版本以及所要集成的开源项目。</p>
+<p>用Xcode5打开项目，在Product里找到CocoaPods，点击Create Podfile创建Podfile文件.</p>
+
+<p><img src="https://photos-2.dropbox.com/t/0/AADk2GedLyFZ8CdzYBFMHwv9XoMDhqEsRRtQXtXVcacZfQ/12/193556446/png/32x32/3/_/1/2/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202013-07-25%20%E4%B8%8B%E5%8D%888.49.43.png/9Puthwl2T9NlnHVH5aQn77k08Rip3pe55D6UlweJJk8?size=1024x768" title="image1" alt="explain image1" /></p>
+
+<p>如下输入platform、支持的最低版本以及所要集成的开源项目。</p>
 
 <pre><code>platform :ios, '5.0'
 
