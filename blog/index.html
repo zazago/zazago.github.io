@@ -9,7 +9,7 @@
   <meta name="author" content="zaza">
 
   
-  <meta name="description" content="Balsamiq Mockups简介 原型开发软件，可以进行软件草图的绘制。 Balsamiq Mockups初体验 软件界面 该软件分为三个区块，第一个区块是包含撤销、复制、黏贴等操作的区域；第二个区域是控件区域，在里面可以找到大部分的控件、图形进行原型的绘画(直接拖动至绘画区或双击即可)， &hellip;">
+  <meta name="description" content="前言 知道有CocoaPods这东西已经有很长时间了,之前装过一两次，但是gem install cocoapods总是下载失败出现error，貌似是网络原因，CocoaPods的官网都上不去。 昨晚看到在iosfeed看到了一个BeyondVincent分享的插件CocoaPods Xcode &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -49,6 +49,75 @@
   <div id="main">
     <div id="content">
       
+
+
+    <article class="post">
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/07/25/cocoapods/">CocoaPods用上了!!!</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-07-25T20:20:00+08:00" pubdate data-updated="true">Jul 25<span>th</span>, 2013</time>
+        
+         | <a href="/blog/2013/07/25/cocoapods/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h3>前言</h3>
+
+<p>知道有CocoaPods这东西已经有很长时间了,之前装过一两次，但是<code>gem install cocoapods</code>总是下载失败出现error，貌似是网络原因，CocoaPods的官网都上不去。</p>
+
+<p>昨晚看到在<a href="http://www.iosfeed.com/" title="iosfeed">iosfeed</a>看到了一个BeyondVincent分享的插件<a href="https://github.com/kattrali/cocoapods-xcode-plugin" title="CocoaPods Xcode Plugin">CocoaPods Xcode Plugin</a>，仅支持Xcode5和CocoaPods 0.22.1+，遂又尝试的安装了一次CocoaPods，总算成功！</p>
+
+<h3>CocoaPods安装使用</h3>
+
+<p>打开终端，使用命令</p>
+
+<pre><code> gem install cocoapods
+ pod setup
+</code></pre>
+
+<p>等待CocoaPods下载安装完成。</p>
+
+<p>下载<a href="https://github.com/kattrali/cocoapods-xcode-plugin" title="CocoaPods Xcode Plugin">CocoaPods Xcode Plugin</a>插件，运行后重启Xcode5即可使用插件。</p>
+
+<p>用Xcode5打开项目，在Product里找到CocoaPods，点击Create Podfile创建Podfile文件，如下输入platform、支持的最低版本以及所要集成的开源项目。</p>
+
+<pre><code>platform :ios, '5.0'
+
+pod "MBProgressHUD"
+pod "FMDB"
+pod "MMDrawerController"
+pod "TPKeyboardAvoiding"
+</code></pre>
+
+<p>保存后，点击install Pods in Podfile就会自动创建Pods项目。如果没有自动创建也可以使用终端，到所要执行的项目目录下使用<code>pod install</code>命令创建Pods项目。</p>
+
+<p>此外，该插件还集成了UpDate CocoaPods的功能，方便使用者对CocoaPods进行更新。感谢作者！</p>
+
+<p><img src="https://photos-2.dropbox.com/t/0/AADk2GedLyFZ8CdzYBFMHwv9XoMDhqEsRRtQXtXVcacZfQ/12/193556446/png/32x32/3/_/1/2/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202013-07-25%20%E4%B8%8B%E5%8D%888.49.43.png/9Puthwl2T9NlnHVH5aQn77k08Rip3pe55D6UlweJJk8?size=1024x768" title="image1" alt="explain image1" /><br/>
+<img src="https://photos-2.dropbox.com/t/0/AADk2GedLyFZ8CdzYBFMHwv9XoMDhqEsRRtQXtXVcacZfQ/12/193556446/png/32x32/3/_/1/2/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202013-07-25%20%E4%B8%8B%E5%8D%888.49.43.png/9Puthwl2T9NlnHVH5aQn77k08Rip3pe55D6UlweJJk8?size=1024x768" title="image2" alt="explain image2" /></p>
+</div>
+  
+  
+
+</article>
 
 
     <article class="post">
@@ -567,47 +636,10 @@ self.window.rootViewController = navigationController;
 
 </article>
 
-
-    <article class="post">
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/06/15/tywin-lannister-quote/">Tywin Lannister Quote</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-06-15T09:28:00+08:00" pubdate data-updated="true">Jun 15<span>th</span>, 2013</time>
-        
-         | <a href="/blog/2013/06/15/tywin-lannister-quote/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>A nice quote by Tywin Lannister taken from <em>A Storm of Sword</em> book.</p>
-
-<blockquote><p>The greatest fools are ofttimes more clever then the men who laugh at them.</p><footer><strong>Tywin Lannister</strong> <cite>A Storm of Swords</cite></footer></blockquote>
-
-</div>
-  
-  
-
-</article>
-
 <nav id="pagenavi">
     
+    
+        <a href="/blog/page/2/" class="next">Next</a>
     
     <div class="center"><a href="/blog/archives">Blog Archives</a></div>
 </nav>
