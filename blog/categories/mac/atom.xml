@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: mac | zaza]]></title>
+  <link href="http://zazago.github.io/blog/categories/mac/atom.xml" rel="self"/>
+  <link href="http://zazago.github.io/"/>
+  <updated>2013-08-04T10:14:36+08:00</updated>
+  <id>http://zazago.github.io/</id>
+  <author>
+    <name><![CDATA[zaza]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[air坏了T T,重装系统]]></title>
+    <link href="http://zazago.github.io/blog/2013/08/04/reset-mac-os/"/>
+    <updated>2013-08-04T09:32:00+08:00</updated>
+    <id>http://zazago.github.io/blog/2013/08/04/reset-mac-os</id>
+    <content type="html"><![CDATA[<h4>前言</h4>
+
+<p>用了半年多的air在上上周的一个清晨，掀开后启动不了了，打开总是一个进度条在走，走完自动关机，开起来又是进度条，如此反复。T T</p>
+
+<p>由于没有备份Time Machine，自己写的ios项目也没备份，心想看能不能把那些较为重要的东西拷出来，网上查了资料，也打了apple的技术客服，好吧，没找到办法，看来找解决方法的能力还有待加强…</p>
+
+<p>启动后按<code>command+R</code>进入Recover模式，验证和修复磁盘均失败，抹掉磁盘后重装系统。</p>
+
+<h4>影响</h4>
+
+<p>好在开发笔记全记在Evernote，octopress的文件夹也有保存在Dropbox上，这两个方面影响不大。至于自己的项目T T，除了一个比较重要的项目有发给过其他朋友，可以从他那边拿到，其它的几个都没了，好吧，以后要多长点心，善于利用一些好用的工具进行存储备份。系统重装后，把那些常用的软件安装一下，赶紧做备份去啦！</p>
+]]></content>
+  </entry>
+  
+</feed>

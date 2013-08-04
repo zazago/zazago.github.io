@@ -9,7 +9,7 @@
   <meta name="author" content="zaza">
 
   
-  <meta name="description" content="前言 知道有CocoaPods这东西已经有很长时间了,之前装过一两次，但是gem install cocoapods总是下载失败出现error，貌似是网络原因，CocoaPods的官网都上不去。 昨晚在iosfeed看到了一个BeyondVincent分享的插件CocoaPods Xcode &hellip;">
+  <meta name="description" content="我一直以为，就目前的工作情况对我而言，出差是那么的遥远，毕竟程序猿+非经理职位+自认为口才沟通也不是很好。哈哈，但是我上周四还是获得了出差去福州的机会。 这次出差，我觉得我扮演的一个需求分析师的角色，去客户那边充分的了解客户需求，进行记录，对于一些不必要的功能进行删减，整体工作下来感觉还是不错的。 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -50,6 +50,97 @@
   <div id="main">
     <div id="content">
       
+
+
+    <article class="post">
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/08/04/a-busines-trip/">出差啦</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-08-04T09:39:00+08:00" pubdate data-updated="true">Aug 4<span>th</span>, 2013</time>
+        
+         | <a href="/blog/2013/08/04/a-busines-trip/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>我一直以为，就目前的工作情况对我而言，出差是那么的遥远，毕竟程序猿+非经理职位+自认为口才沟通也不是很好。哈哈，但是我上周四还是获得了出差去福州的机会。</p>
+
+<p>这次出差，我觉得我扮演的一个需求分析师的角色，去客户那边充分的了解客户需求，进行记录，对于一些不必要的功能进行删减，整体工作下来感觉还是不错的。第一次出差还是很兴奋，当然，回来有一堆的需求需要整理。</p>
+
+<h4>题外话</h4>
+
+<p>9:30的动车，到了福州11:30。从动车站走出来，真的是彻底感受到了火炉城市的威力。等到下午六点多去火车站的时候，仍然觉得余温不减。</p>
+
+<p>最后附上一张在动车上拍的照片
+<img src="http://ww4.sinaimg.cn/bmiddle/730c8cdfjw1e771ombfdaj20hs0dajst.jpg" title="动车随手拍" alt="动车随手拍" /></p>
+</div>
+  
+  
+
+</article>
+
+
+    <article class="post">
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/08/04/reset-mac-os/">air坏了T T,重装系统</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-08-04T09:32:00+08:00" pubdate data-updated="true">Aug 4<span>th</span>, 2013</time>
+        
+         | <a href="/blog/2013/08/04/reset-mac-os/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h4>前言</h4>
+
+<p>用了半年多的air在上上周的一个清晨，掀开后启动不了了，打开总是一个进度条在走，走完自动关机，开起来又是进度条，如此反复。T T</p>
+
+<p>由于没有备份Time Machine，自己写的ios项目也没备份，心想看能不能把那些较为重要的东西拷出来，网上查了资料，也打了apple的技术客服，好吧，没找到办法，看来找解决方法的能力还有待加强…</p>
+
+<p>启动后按<code>command+R</code>进入Recover模式，验证和修复磁盘均失败，抹掉磁盘后重装系统。</p>
+
+<h4>影响</h4>
+
+<p>好在开发笔记全记在Evernote，octopress的文件夹也有保存在Dropbox上，这两个方面影响不大。至于自己的项目T T，除了一个比较重要的项目有发给过其他朋友，可以从他那边拿到，其它的几个都没了，好吧，以后要多长点心，善于利用一些好用的工具进行存储备份。系统重装后，把那些常用的软件安装一下，赶紧做备份去啦！</p>
+</div>
+  
+  
+
+</article>
 
 
     <article class="post">
@@ -474,172 +565,10 @@ pod "TPKeyboardAvoiding"
 
 </article>
 
-
-    <article class="post">
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/06/18/get-uiviewcontroller/">How to Get UIViewController of UIView&#8217;s Superview</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-06-18T21:40:00+08:00" pubdate data-updated="true">Jun 18<span>th</span>, 2013</time>
-        
-         | <a href="/blog/2013/06/18/get-uiviewcontroller/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h4>前言</h4>
-
-<p>之前做的项目页面间的push切换效果从来没有用Navigation push的方法来实现，而是使用Scrollview方法来实现push效果。后者的实现虽说效果一样，但是麻烦(要实现切换效果的子页面都要增加一个delegate)且代码量又增多，遂在今天开始的新项目中彻底的不用旧方法。</p>
-
-<p>这个项目就安排了我自己一个人完成，fightting！</p>
-
-<h4>碰到的问题</h4>
-
-<p>首先，我在<code>AppDelegate.m</code>里面声明了<code>rootViewController = navigationController</code>。</p>
-
-<pre><code>self.m_MainViewController = [[[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil]autorelease];
-navigationController = [[UINavigationController alloc] initWithRootViewController:self.m_MainViewController];
-self.window.rootViewController = navigationController;
-</code></pre>
-
-<p>我在<code>MainViewController</code>中使用addsubview的方法add了<code>ViewControllerA.view</code>，点击<code>ViewControllerA.view</code>页面里的一个Button，我希望能触发的事件实现push页面的功能，把页面push到新的<code>ViewControllerB</code>。于是我开开心心的直接</p>
-
-<pre><code>[self.navigationController pushViewController:m_SignInViewController animated:YES];
-</code></pre>
-
-<p>之后测试发现一点效果也没有。</p>
-
-<h4>解决思路</h4>
-
-<p>没能实现效果的原因其实是由于ViewControllerA没有<code>navigationController</code>，你会发现在ViewControllerA里<code>NSLog(@"%@",self.navigationController)</code>打印出来的结果是<code>null</code>。<br/>
-一开始想到的实现方法就是在ViewControllerA中写一个delegate，到MainViewController中实现delegate方法，在所实现的方法里面push就可以了，这个方法可行，可是又要增加delegate，无形中又把一个简单的实现变复杂。<br/>
-没有思路，google时关键字都不晓得怎么下手，跟超哥一番讨论之后，得到了一个思路，就是得到ViewControllerA.view的superview的Controller(好绕,意思应该有清楚)。自己也觉得可行，遂google去。感谢超哥！<br/>
-搜索关键字<code>ios  如何得到superview的controller</code>，结果的前两个StackOverflow的回答给出了解决的答案。<br/>
-<a href="http://stackoverflow.com/questions/2309569/how-to-get-uiviewcontroller-of-a-uiviews-superview-in-iphone-sdk">这个链接</a>里面给出的回答是这样的：<br/>
-<img src="/images/2013_06_18_1.png" title="Title" alt="alt text" /><br/>
-回答者说了，不能直接获得，但是可以通过responder得到。</p>
-
-<p>代码的解析：</p>
-
-<blockquote><p>1.一个for循环遍历<code>[self superview]</code>，判断条件是next是否为空。 <br/>
-2.这句不懂什么意思。<br/>
-3.判断<code>nextResponder</code>是不是属于<code>UIViewController</code>的一个实例，是的话就返回<code>nextResponder</code>。</p></blockquote>
-
-<p>通过返回的<code>UIViewController</code>后</p>
-
-<pre><code>[self.UIViewController.navigationController pushViewController:m_SignInViewController animated:YES];
-</code></pre>
-
-<p>就可以实现想要的效果了。</p>
-</div>
-  
-  
-
-</article>
-
-
-    <article class="post">
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/06/17/zhong-xin-chu-fa/">重新出发</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-06-17T16:32:00+08:00" pubdate data-updated="true">Jun 17<span>th</span>, 2013</time>
-        
-         | <a href="/blog/2013/06/17/zhong-xin-chu-fa/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h4>重新出发</h4>
-
-<p>之前安装的Octopress被我给删掉了&hellip;写的那篇Hello World也删掉了，原因:我一点都不会不会用Octopress= =！。</p>
-
-<h4>再次安装Octopress的发现</h4>
-
-<p>Markdown语法</p>
-
-<ul>
-<li>Mou编辑器下使用<code>'command+R'</code>可以查看Markdown Syntax Reference(不熟悉的地方直接参考这个写)</li>
-</ul>
-
-
-<p>Octopress主题</p>
-
-<ul>
-<li>Google了一下Octopress主题，找到了<a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">这个</a>，里面提供了一二十个主题，足以挑选出一个自己喜欢的。</li>
-</ul>
-
-
-<h4>本博主题<a href="https://github.com/chinghanho/octopress-theme-dropbot">Dropbot</a></h4>
-
-<p>我所使用的主题，作者有在他github项目中的README.md中提到如何增加About页面，照着他的方法做就行了。<br/>
-如何在要增加第四个页面？其实我也不懂…，于是我给<a href="http://about.chh.tw/">作者</a>发去了一封邮件，得到了以下详细的回复：</p>
-
-<blockquote><p>Octopress 不會主動加進新的page，你要在<a href="https://github.com/chinghanho/octopress-theme-dropbot/blob/5ead44cae472967d14f3547fa67f7fc42fab6a28/source/_includes/custom/navigation.html">這個檔案</a>加上新page的HTML，例如：</p>
-
-<p><code>
-&lt;li&gt;&lt;a href="/new"&gt;&lt;i class="icon-xxx"&gt;&lt;/i&gt;New Page&lt;/a&gt;&lt;span class="divider"&gt;&lt;/span&gt;&lt;/li&gt;
-</code></p>
-
-<p>這時你可能需要新的 font icon：<a href="http://icomoon.io/">IcoMoon</a>。</p>
-
-<p>此外，因為整個 page 設計只有 800px，如果導航欄上增加為四個連結，空間會有點擠，你可能需要在<a href="https://github.com/chinghanho/octopress-theme-dropbot/blob/5ead44cae472967d14f3547fa67f7fc42fab6a28/sass/custom/_layout.scss#L8">這個地方</a>修改 <code>$max-width</code>。</p></blockquote>
-
-<p>感谢作者的详细回复，照着上面做就可以多增加页面。</p>
-
-<h4>搭建Octopress</h4>
-
-<p>想要搭建Octopress可以参考下面的blog:</p>
-
-<ul>
-<li> <a href="http://iiiyu.com/2012/02/07/how-to-install-octopress-on-heroku/">参考的文章连接1</a></li>
-<li> <a href="http://blog.eddie.com.tw/2011/10/11/how-to-install-octopress-on-heroku/">参考的文章连接2</a></li>
-<li> <a href="http://blog.devtang.com/blog/2012/02/10/setup-blog-based-on-github/">参考的文章连接3</a></li>
-<li> <a href="http://firestudio.cn/blog/2013/01/05/ru-he-tong-guo-github-yu-octopress-lai-da-jian-zi-ji-de-bo-ke/">参考的文章连接4</a></li>
-<li> <a href="http://markdown.tw/#blockquote">Markdown语法1</a></li>
-<li> <a href="http://daringfireball.net/projects/markdown/basics">Markdown语法2</a></li>
-</ul>
-
-</div>
-  
-  
-
-</article>
-
 <nav id="pagenavi">
     
+    
+        <a href="/blog/page/2/" class="next">Next</a>
     
     <div class="center"><a href="/blog/archives">Blog Archives</a></div>
 </nav>
