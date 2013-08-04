@@ -4,7 +4,7 @@
   <title><![CDATA[zaza]]></title>
   <link href="http://zazago.github.io/atom.xml" rel="self"/>
   <link href="http://zazago.github.io/"/>
-  <updated>2013-08-03T21:36:03+08:00</updated>
+  <updated>2013-08-04T08:11:58+08:00</updated>
   <id>http://zazago.github.io/</id>
   <author>
     <name><![CDATA[zaza]]></name>
@@ -326,18 +326,6 @@ self.window.rootViewController = navigationController;
 <li> <a href="http://markdown.tw/#blockquote">Markdown语法1</a></li>
 <li> <a href="http://daringfireball.net/projects/markdown/basics">Markdown语法2</a></li>
 </ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Tywin Lannister Quote]]></title>
-    <link href="http://zazago.github.io/blog/2013/06/15/tywin-lannister-quote/"/>
-    <updated>2013-06-15T09:28:00+08:00</updated>
-    <id>http://zazago.github.io/blog/2013/06/15/tywin-lannister-quote</id>
-    <content type="html"><![CDATA[<p>A nice quote by Tywin Lannister taken from <em>A Storm of Sword</em> book.</p>
-
-<blockquote><p>The greatest fools are ofttimes more clever then the men who laugh at them.</p><footer><strong>Tywin Lannister</strong> <cite>A Storm of Swords</cite></footer></blockquote>
 
 ]]></content>
   </entry>
