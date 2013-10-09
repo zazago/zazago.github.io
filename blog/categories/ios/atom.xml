@@ -4,7 +4,7 @@
   <title><![CDATA[Category: iOS | zaza]]></title>
   <link href="http://zazago.github.io/blog/categories/ios/atom.xml" rel="self"/>
   <link href="http://zazago.github.io/"/>
-  <updated>2013-10-08T21:30:57+08:00</updated>
+  <updated>2013-10-09T22:36:14+08:00</updated>
   <id>http://zazago.github.io/</id>
   <author>
     <name><![CDATA[zaza]]></name>
@@ -26,7 +26,8 @@
 
 <p>从iOS7的正式发布到现在也将近过去了一个多月的时间，针对Xcode5以及iOS7所增加的新特性自己也在这一个多月的时间里陆陆续续看了很多资料，除了官方提供的文档和视频之外更多的是一些英文博文，收获颇多。下面也列出了看过的文章目录，以便后续的学习与总结。</p>
 
-<p>1、<a href="http://www.peterboni.net/blog/2013/06/29/ios-7-dynamic-type/" title="iOS 7 Dynamic Type">iOS 7 Dynamic Type</a></p>
+<p>1、<a href="http://www.peterboni.net/blog/2013/06/29/ios-7-dynamic-type/" title="iOS 7 Dynamic Type（1）">iOS 7 Dynamic Type（1）</a><br/>
+2、<a href="http://www.shinobicontrols.com/blog/posts/2013/10/07/ios7-day-by-day-day-12-dynamic-type-and-font-descriptors/" title="iOS 7 Dynamic Type（2）">iOS 7 Dynamic Type（2）</a></p>
 ]]></content>
   </entry>
   
