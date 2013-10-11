@@ -4,7 +4,7 @@
   <title><![CDATA[Category: iOS | zaza]]></title>
   <link href="http://zazago.github.io/blog/categories/ios/atom.xml" rel="self"/>
   <link href="http://zazago.github.io/"/>
-  <updated>2013-10-11T23:43:44+08:00</updated>
+  <updated>2013-10-12T07:12:56+08:00</updated>
   <id>http://zazago.github.io/</id>
   <author>
     <name><![CDATA[zaza]]></name>
@@ -24,11 +24,18 @@
 
 <h4>主题</h4>
 
-<p>从iOS7的正式发布到现在也将近过去了一个多月的时间，针对Xcode5以及iOS7所增加的新特性自己也在这一个多月的时间里陆陆续续看了很多资料，除了官方提供的文档和视频之外更多的是一些英文博文，收获颇多。下面也列出了看过的文章目录，以便后续的学习与总结。</p>
+<p>从iOS7的正式发布到现在也将近过去了一个多月的时间，针对Xcode5以及iOS7所增加的新特性自己也在这一个多月的时间里陆陆续续看了很多资料，除了官方提供的文档和视频之外更多的是一些英文博文，收获颇多。下面也列出文章目录，以便后续的学习与总结。</p>
+
+<h5>已读</h5>
 
 <p>1、<a href="http://www.peterboni.net/blog/2013/06/29/ios-7-dynamic-type/" title="iOS 7 Dynamic Type（1）">iOS 7 Dynamic Type（1）</a><br/>
 2、<a href="http://www.shinobicontrols.com/blog/posts/2013/10/07/ios7-day-by-day-day-12-dynamic-type-and-font-descriptors/" title="iOS 7 Dynamic Type（2）">iOS 7 Dynamic Type（2）</a><br/>
 3、<a href="http://www.raywenderlich.com/50197/uikit-dynamics-tutorial" title="iOS 7 UIKit Dynamics">iOS 7 UIKit Dynamics</a></p>
+
+<h5>Mark</h5>
+
+<p>1、<a href="http://mashable.com/2013/09/12/apple-a7-64-bit/" title="Apple's 64-Bit A7 Chip">A Developer&rsquo;s Guide to Apple&rsquo;s 64-Bit A7 Chip</a> <br/>
+2、<a href="https://developer.apple.com/library/ios/documentation/General/Conceptual/CocoaTouch64BitGuide/Introduction/Introduction.html" title="About 64-Bit Cocoa Touch Apps">About 64-Bit Cocoa Touch Apps</a></p>
 ]]></content>
   </entry>
   
