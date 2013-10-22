@@ -4,7 +4,7 @@
   <title><![CDATA[zaza]]></title>
   <link href="http://zazago.github.io/atom.xml" rel="self"/>
   <link href="http://zazago.github.io/"/>
-  <updated>2013-10-17T08:52:42+08:00</updated>
+  <updated>2013-10-22T11:45:11+08:00</updated>
   <id>http://zazago.github.io/</id>
   <author>
     <name><![CDATA[zaza]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Xcode插件整理]]></title>
+    <link href="http://zazago.github.io/blog/2013/10/22/xcodecha-jian/"/>
+    <updated>2013-10-22T11:27:00+08:00</updated>
+    <id>http://zazago.github.io/blog/2013/10/22/xcodecha-jian</id>
+    <content type="html"><![CDATA[<p>已经非常强大的Xcode要是再辅助上一些牛人开发的插件，就真的是如虎添翼，开发效率也会得到显著的提升。</p>
+
+<p>下面整理列出别人分享的插件：</p>
+
+<p>1.<a href="https://github.com/chendo/FuzzyAutocompletePlugin" title="FuzzyAutocomplete">FuzzyAutocomplete</a> (Use In Xcode5)<br/>
+更好的代码自动补全，不需要从头匹配的原则来补全代码，而是可以直接输入你记得的关键字来进行匹配。</p>
+
+<p>2.<a href="https://github.com/ricobeck/KFCocoaPodsPlugin" title="KFCocoaPodsPlugin">KFCocoaPodsPlugin</a> (Use In Xcode5)<br/>
+如果有使用CocoaPods的话，该插件可以提供开源项目的历史版本记录。</p>
+
+<p>3.<a href="https://github.com/onevcat/VVDocumenter-Xcode" title="VVDocumenter">VVDocumenter</a><br/>
+为Xcode增加了注释功能，再也不要担心方法名取得让别人看不懂了~</p>
+
+<p>4.<a href="https://github.com/ksuther/KSImageNamed-Xcode" title="KSImageNamed">KSImageNamed</a></p>
+
+<p>5.<a href="https://github.com/omz/ColorSense-for-Xcode" title="ColorSense">ColorSense</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[iOS7学习目录]]></title>
