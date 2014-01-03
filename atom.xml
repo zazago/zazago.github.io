@@ -4,7 +4,7 @@
   <title><![CDATA[zaza]]></title>
   <link href="http://zazago.github.io/atom.xml" rel="self"/>
   <link href="http://zazago.github.io/"/>
-  <updated>2014-01-03T16:45:41+08:00</updated>
+  <updated>2014-01-03T16:58:17+08:00</updated>
   <id>http://zazago.github.io/</id>
   <author>
     <name><![CDATA[zaza]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[new_target_in_2014]]></title>
+    <link href="http://zazago.github.io/blog/2014/01/01/new-target-in-2014/"/>
+    <updated>2014-01-01T07:51:00+08:00</updated>
+    <id>http://zazago.github.io/blog/2014/01/01/new-target-in-2014</id>
+    <content type="html"><![CDATA[<p>2013年就这么过去了，这一年，经历了角色的转变，还算顺利。</p>
+
+<p>2014就这么拉开序幕。<br/>
+今年希望自己能做到下面几件事情：</p>
+
+<ol>
+<li>锻炼身体：待我腹肌八块，妹子嫁我可好！</li>
+<li>学习PS：我正努力的做一个敲得了好代码P得了好图的骚年！</li>
+<li>学习英语：年复一年日复一日。少壮不努力，老大背单词！</li>
+<li>加深iOS知识：知识改变命运，行动改变人生！</li>
+</ol>
+
+
+<p>2014年，希望一切的一切顺利。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[《触动人心——设计优秀的iPhone应用》]]></title>

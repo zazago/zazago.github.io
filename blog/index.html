@@ -9,8 +9,11 @@
   <meta name="author" content="zaza">
 
   
-  <meta name="description" content="未完
-">
+  <meta name="description" content="2013年就这么过去了，这一年，经历了角色的转变，还算顺利。 2014就这么拉开序幕。
+今年希望自己能做到下面几件事情： 锻炼身体：待我腹肌八块，妹子嫁我可好！
+学习PS：我正努力的做一个敲得了好代码P得了好图的骚年！
+学习英语：年复一年日复一日。少壮不努力，老大背单词！
+加深iOS知识： &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -40,11 +43,11 @@
   <div id="header-inner">
     <span class="first"><a href="/">zaza</a></span>
     <span><a href="/blog/categories/ios">iOS</a></span>
-    <span><a href="/blog/categories/work">work</a></span>
-    <span><a href="/products">projects</a></span>
-    <span><a href="/about">about</a></span>
+    <span><a href="/blog/categories/work">Work</a></span>
+    <span><a href="/products">Projects</a></span>
+    <span><a href="/about">About</a></span>
 <!--     <span><a href="http://www.github.com/">projects</a></span> -->
-    <span class="last"><a href="/atom.xml" title="subscribe via RSS">rss</a></span>
+    <span class="last"><a href="/atom.xml" title="subscribe via RSS">Rss</a></span>
   </div>
 </hgroup>
 
@@ -52,6 +55,55 @@
   <div id="main">
     <div id="content">
       
+
+
+    <article class="post">
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/01/01/new-target-in-2014/">New_target_in_2014</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-01-01T07:51:00+08:00" pubdate data-updated="true">Jan 1<span>st</span>, 2014</time>
+        
+         | <a href="/blog/2014/01/01/new-target-in-2014/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>2013年就这么过去了，这一年，经历了角色的转变，还算顺利。</p>
+
+<p>2014就这么拉开序幕。<br/>
+今年希望自己能做到下面几件事情：</p>
+
+<ol>
+<li>锻炼身体：待我腹肌八块，妹子嫁我可好！</li>
+<li>学习PS：我正努力的做一个敲得了好代码P得了好图的骚年！</li>
+<li>学习英语：年复一年日复一日。少壮不努力，老大背单词！</li>
+<li>加深iOS知识：知识改变命运，行动改变人生！</li>
+</ol>
+
+
+<p>2014年，希望一切的一切顺利。</p>
+</div>
+  
+  
+
+</article>
 
 
     <article class="post">
@@ -497,73 +549,6 @@ pod "TPKeyboardAvoiding"
 下文列出自己遇到的看到的第三方开源库。</p>
 
 <h4>MKNetworkKit</h4>
-</div>
-  
-  
-
-</article>
-
-
-    <article class="post">
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/07/10/ios-stackoverflow/">曾经在stackoverflow搜到的好问答</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-07-10T12:25:00+08:00" pubdate data-updated="true">Jul 10<span>th</span>, 2013</time>
-        
-         | <a href="/blog/2013/07/10/ios-stackoverflow/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h4>前记</h4>
-
-<p>每次碰到一些实现上困惑的地方，都要通过搜索引擎来搜索答案，英文关键字搜索的话搜出来的基本上是出自stackoverflow，这是一个超棒的问答社区，里面有好多经典的问答，就是全英文看着有点吃力+蛋疼，就权当顺便加强一下英语。</p>
-
-<p>这篇文章就当做笔记，记录那些自己曾经在stackoverflow上搜到的解决方案。持续更新吧…</p>
-
-<ol>
-<li><p>scrollview按需要设置page大小：<a href="http://stackoverflow.com/questions/1220354/uiscrollview-horizontal-paging-like-mobile-safari-tabs/1373096#1373096">UIScrollView horizontal paging like Mobile Safari tabs</a><br/>
-此外还找到了一篇博文，也记录着这个解决办法，点<a href="http://ztpala.com/2011/06/22/customize-page-size-uiscrollview/">这里</a>。</p></li>
-<li><p>UIButton Long Press Event(Button长按事件)。 <a href="http://stackoverflow.com/questions/6179347/uibutton-long-press-event">链接</a></p>
-
-<pre><code>UILongPressGestureRecognizer *longPress = [[UILongPressGestureRecognizer alloc] init];
-[longPress addTarget:self action:@selector(longPress:)];
-[self.button addGestureRecognizer:longPress];
-[longPress release];
--------------------------------------------------------------------------------
-- (void)longPress:(UILongPressGestureRecognizer*)gesture
-{
-    if ( gesture.state == UIGestureRecognizerStateEnded )
-    {
-         NSLog(@"Long Press");
-    }
-}
-</code></pre></li>
-<li><p>Application Crash on NSIndexPath use in iOS5。 <a href="http://stackoverflow.com/questions/12417270/application-crash-on-nsindexpath-use-in-ios5">链接</a></p>
-
-<pre><code>Use：[NSIndexPath indexPathForRow:indexRow inSection:indexSection];
-
-instead of：[NSIndexPath indexPathForItem:indexRow inSection:indexSection];
-</code></pre></li>
-</ol>
-
 </div>
   
   

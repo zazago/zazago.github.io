@@ -9,7 +9,7 @@
   <meta name="author" content="zaza">
 
   
-  <meta name="description" content="最近发生了一些事情，记录一下。 1、关于拖延症 爸爸吩咐在网上帮忙家里处理一些事情，周五还特地打电话来提醒周末有时间要处理一下，自己没把它放在心上，就这样拖到了周一，眼看着距离截止日期10号还差一天，急急忙忙的处理，却被告知要提供一大堆文件，打电话回去说明情况的时候被训斥了一顿。 不知不觉中， &hellip;">
+  <meta name="description" content="前记 每次碰到一些实现上困惑的地方，都要通过搜索引擎来搜索答案，英文关键字搜索的话搜出来的基本上是出自stackoverflow，这是一个超棒的问答社区，里面有好多经典的问答，就是全英文看着有点吃力+蛋疼，就权当顺便加强一下英语。 这篇文章就当做笔记， &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -39,11 +39,11 @@
   <div id="header-inner">
     <span class="first"><a href="/">zaza</a></span>
     <span><a href="/blog/categories/ios">iOS</a></span>
-    <span><a href="/blog/categories/work">work</a></span>
-    <span><a href="/products">projects</a></span>
-    <span><a href="/about">about</a></span>
+    <span><a href="/blog/categories/work">Work</a></span>
+    <span><a href="/products">Projects</a></span>
+    <span><a href="/about">About</a></span>
 <!--     <span><a href="http://www.github.com/">projects</a></span> -->
-    <span class="last"><a href="/atom.xml" title="subscribe via RSS">rss</a></span>
+    <span class="last"><a href="/atom.xml" title="subscribe via RSS">Rss</a></span>
   </div>
 </hgroup>
 
@@ -51,6 +51,73 @@
   <div id="main">
     <div id="content">
       
+
+
+    <article class="post">
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/07/10/ios-stackoverflow/">曾经在stackoverflow搜到的好问答</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-07-10T12:25:00+08:00" pubdate data-updated="true">Jul 10<span>th</span>, 2013</time>
+        
+         | <a href="/blog/2013/07/10/ios-stackoverflow/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h4>前记</h4>
+
+<p>每次碰到一些实现上困惑的地方，都要通过搜索引擎来搜索答案，英文关键字搜索的话搜出来的基本上是出自stackoverflow，这是一个超棒的问答社区，里面有好多经典的问答，就是全英文看着有点吃力+蛋疼，就权当顺便加强一下英语。</p>
+
+<p>这篇文章就当做笔记，记录那些自己曾经在stackoverflow上搜到的解决方案。持续更新吧…</p>
+
+<ol>
+<li><p>scrollview按需要设置page大小：<a href="http://stackoverflow.com/questions/1220354/uiscrollview-horizontal-paging-like-mobile-safari-tabs/1373096#1373096">UIScrollView horizontal paging like Mobile Safari tabs</a><br/>
+此外还找到了一篇博文，也记录着这个解决办法，点<a href="http://ztpala.com/2011/06/22/customize-page-size-uiscrollview/">这里</a>。</p></li>
+<li><p>UIButton Long Press Event(Button长按事件)。 <a href="http://stackoverflow.com/questions/6179347/uibutton-long-press-event">链接</a></p>
+
+<pre><code>UILongPressGestureRecognizer *longPress = [[UILongPressGestureRecognizer alloc] init];
+[longPress addTarget:self action:@selector(longPress:)];
+[self.button addGestureRecognizer:longPress];
+[longPress release];
+-------------------------------------------------------------------------------
+- (void)longPress:(UILongPressGestureRecognizer*)gesture
+{
+    if ( gesture.state == UIGestureRecognizerStateEnded )
+    {
+         NSLog(@"Long Press");
+    }
+}
+</code></pre></li>
+<li><p>Application Crash on NSIndexPath use in iOS5。 <a href="http://stackoverflow.com/questions/12417270/application-crash-on-nsindexpath-use-in-ios5">链接</a></p>
+
+<pre><code>Use：[NSIndexPath indexPathForRow:indexRow inSection:indexSection];
+
+instead of：[NSIndexPath indexPathForItem:indexRow inSection:indexSection];
+</code></pre></li>
+</ol>
+
+</div>
+  
+  
+
+</article>
 
 
     <article class="post">
