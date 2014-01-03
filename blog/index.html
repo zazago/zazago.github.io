@@ -9,8 +9,8 @@
   <meta name="author" content="zaza">
 
   
-  <meta name="description" content="前言 已经非常强大的Xcode要是再辅助上一些牛人开发的插件，就真的是如虎添翼，开发效率也会得到显著的提升。 废话不多说 下面整理列出别人分享的插件： 1.FuzzyAutocomplete (Use In Xcode5)
-更好的代码自动补全，不需要从头匹配的原则来补全代码， &hellip;">
+  <meta name="description" content="
+">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -52,6 +52,42 @@
   <div id="main">
     <div id="content">
       
+
+
+    <article class="post">
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/12/26/design-excellent-app/">《触动人心——设计优秀的iPhone应用》</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-12-26T15:35:00+08:00" pubdate data-updated="true">Dec 26<span>th</span>, 2013</time>
+        
+         | <a href="/blog/2013/12/26/design-excellent-app/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">
+</div>
+  
+  
+
+</article>
 
 
     <article class="post">
@@ -102,6 +138,8 @@
 <p>4.<a href="https://github.com/ksuther/KSImageNamed-Xcode" title="KSImageNamed">KSImageNamed</a></p>
 
 <p>5.<a href="https://github.com/omz/ColorSense-for-Xcode" title="ColorSense">ColorSense</a></p>
+
+<p>6.<a href="https://github.com/qfish/XAlign">给强迫症患者</a></p>
 </div>
   
   
@@ -507,67 +545,6 @@ pod "TPKeyboardAvoiding"
 
 </article>
 
-
-    <article class="post">
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/07/10/ios-stackoverflow/">曾经在stackoverflow搜到的好问答</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-07-10T12:25:00+08:00" pubdate data-updated="true">Jul 10<span>th</span>, 2013</time>
-        
-         | <a href="/blog/2013/07/10/ios-stackoverflow/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h4>前记</h4>
-
-<p>每次碰到一些实现上困惑的地方，都要通过搜索引擎来搜索答案，英文关键字搜索的话搜出来的基本上是出自stackoverflow，这是一个超棒的问答社区，里面有好多经典的问答，就是全英文看着有点吃力+蛋疼，就权当顺便加强一下英语。</p>
-
-<p>这篇文章就当做笔记，记录那些自己曾经在stackoverflow上搜到的解决方案。持续更新吧…</p>
-
-<ol>
-<li><p>scrollview按需要设置page大小：<a href="http://stackoverflow.com/questions/1220354/uiscrollview-horizontal-paging-like-mobile-safari-tabs/1373096#1373096">UIScrollView horizontal paging like Mobile Safari tabs</a><br/>
-此外还找到了一篇博文，也记录着这个解决办法，点<a href="http://ztpala.com/2011/06/22/customize-page-size-uiscrollview/">这里</a>。</p></li>
-<li><p>UIButton Long Press Event(Button长按事件)。 <a href="http://stackoverflow.com/questions/6179347/uibutton-long-press-event">链接</a></p>
-
-<pre><code>UILongPressGestureRecognizer *longPress = [[UILongPressGestureRecognizer alloc] init];
-[longPress addTarget:self action:@selector(longPress:)];
-[self.button addGestureRecognizer:longPress];
-[longPress release];
--------------------------------------------------------------------------------
-- (void)longPress:(UILongPressGestureRecognizer*)gesture
-{
-    if ( gesture.state == UIGestureRecognizerStateEnded )
-    {
-         NSLog(@"Long Press");
-    }
-}
-</code></pre></li>
-</ol>
-
-</div>
-  
-  
-
-</article>
-
 <nav id="pagenavi">
     
     
@@ -578,7 +555,7 @@ pod "TPKeyboardAvoiding"
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - zaza -
+  Copyright &copy; 2014 - zaza -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 

@@ -104,6 +104,12 @@
     }
 }
 </code></pre></li>
+<li><p>Application Crash on NSIndexPath use in iOS5。 <a href="http://stackoverflow.com/questions/12417270/application-crash-on-nsindexpath-use-in-ios5">链接</a></p>
+
+<pre><code>Use：[NSIndexPath indexPathForRow:indexRow inSection:indexSection];
+
+instead of：[NSIndexPath indexPathForItem:indexRow inSection:indexSection];
+</code></pre></li>
 </ol>
 
 </div>
@@ -176,7 +182,7 @@
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - zaza -
+  Copyright &copy; 2014 - zaza -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 

@@ -4,7 +4,7 @@
   <title><![CDATA[zaza]]></title>
   <link href="http://zazago.github.io/atom.xml" rel="self"/>
   <link href="http://zazago.github.io/"/>
-  <updated>2013-10-22T11:46:29+08:00</updated>
+  <updated>2014-01-03T16:41:45+08:00</updated>
   <id>http://zazago.github.io/</id>
   <author>
     <name><![CDATA[zaza]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[《触动人心——设计优秀的iPhone应用》]]></title>
+    <link href="http://zazago.github.io/blog/2013/12/26/design-excellent-app/"/>
+    <updated>2013-12-26T15:35:00+08:00</updated>
+    <id>http://zazago.github.io/blog/2013/12/26/design-excellent-app</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Xcode插件整理]]></title>
@@ -38,6 +47,8 @@
 <p>4.<a href="https://github.com/ksuther/KSImageNamed-Xcode" title="KSImageNamed">KSImageNamed</a></p>
 
 <p>5.<a href="https://github.com/omz/ColorSense-for-Xcode" title="ColorSense">ColorSense</a></p>
+
+<p>6.<a href="https://github.com/qfish/XAlign">给强迫症患者</a></p>
 ]]></content>
   </entry>
   
@@ -252,6 +263,12 @@ pod "TPKeyboardAvoiding"
          NSLog(@"Long Press");
     }
 }
+</code></pre></li>
+<li><p>Application Crash on NSIndexPath use in iOS5。 <a href="http://stackoverflow.com/questions/12417270/application-crash-on-nsindexpath-use-in-ios5">链接</a></p>
+
+<pre><code>Use：[NSIndexPath indexPathForRow:indexRow inSection:indexSection];
+
+instead of：[NSIndexPath indexPathForItem:indexRow inSection:indexSection];
 </code></pre></li>
 </ol>
 

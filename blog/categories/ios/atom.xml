@@ -4,7 +4,7 @@
   <title><![CDATA[Category: iOS | zaza]]></title>
   <link href="http://zazago.github.io/blog/categories/ios/atom.xml" rel="self"/>
   <link href="http://zazago.github.io/"/>
-  <updated>2013-10-22T11:46:29+08:00</updated>
+  <updated>2014-01-03T16:41:45+08:00</updated>
   <id>http://zazago.github.io/</id>
   <author>
     <name><![CDATA[zaza]]></name>
@@ -38,6 +38,8 @@
 <p>4.<a href="https://github.com/ksuther/KSImageNamed-Xcode" title="KSImageNamed">KSImageNamed</a></p>
 
 <p>5.<a href="https://github.com/omz/ColorSense-for-Xcode" title="ColorSense">ColorSense</a></p>
+
+<p>6.<a href="https://github.com/qfish/XAlign">给强迫症患者</a></p>
 ]]></content>
   </entry>
   
@@ -153,6 +155,12 @@ pod "TPKeyboardAvoiding"
          NSLog(@"Long Press");
     }
 }
+</code></pre></li>
+<li><p>Application Crash on NSIndexPath use in iOS5。 <a href="http://stackoverflow.com/questions/12417270/application-crash-on-nsindexpath-use-in-ios5">链接</a></p>
+
+<pre><code>Use：[NSIndexPath indexPathForRow:indexRow inSection:indexSection];
+
+instead of：[NSIndexPath indexPathForItem:indexRow inSection:indexSection];
 </code></pre></li>
 </ol>
 
