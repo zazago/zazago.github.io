@@ -4,7 +4,7 @@
   <title><![CDATA[zaza]]></title>
   <link href="http://zazago.github.io/atom.xml" rel="self"/>
   <link href="http://zazago.github.io/"/>
-  <updated>2014-01-14T10:29:41+08:00</updated>
+  <updated>2014-01-14T10:31:11+08:00</updated>
   <id>http://zazago.github.io/</id>
   <author>
     <name><![CDATA[zaza]]></name>
@@ -40,7 +40,7 @@
 <p>这是需要倒入一张新的图片用于Retina 4-inch的设备。<br/>
 <img src="http://ww3.sinaimg.cn/large/730c8cdfgw1eciv0lslmsj20f60bbmxt.jpg" title="R4" alt="R4" /></p>
 
-<p>设置好可拉伸区域之后重新运行。就可以看到想要的的效果。
+<p>设置好可拉伸区域之后重新运行。就可以看到想要的的效果。<br/>
 <img src="http://ww1.sinaimg.cn/large/730c8cdfgw1eciv3lclmaj208w08rt8x.jpg" title="运行效果" alt="运行效果" /></p>
 ]]></content>
   </entry>
