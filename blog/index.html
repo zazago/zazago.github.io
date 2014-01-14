@@ -9,11 +9,8 @@
   <meta name="author" content="zaza">
 
   
-  <meta name="description" content="2013年就这么过去了，这一年，经历了角色的转变，还算顺利。 2014就这么拉开序幕。
-今年希望自己能做到下面几件事情： 锻炼身体：待我腹肌八块，妹子嫁我可好！
-学习PS：我正努力的做一个敲得了好代码P得了好图的骚年！
-学习英语：年复一年日复一日。少壮不努力，老大背单词！
-加深iOS知识： &hellip;">
+  <meta name="description" content="前言 Xcode5提供了新的Asset Catalog 以解决图片管理的问题。
+这次主要用到的还是它可视化处理图片拉伸的这个功能。 正文 在Xcode5之前，拉伸图片的话主要用到的方法resizableImageWithCapInsets这个方法。现在直接妥妥拽拽就可以实现这个方法了。 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -55,6 +52,101 @@
   <div id="main">
     <div id="content">
       
+
+
+    <article class="post">
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/01/14/asset-catalog-use-experience/">Asset Catalog使用笔记</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-01-14T09:43:00+08:00" pubdate data-updated="true">Jan 14<span>th</span>, 2014</time>
+        
+         | <a href="/blog/2014/01/14/asset-catalog-use-experience/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h4>前言</h4>
+
+<p>Xcode5提供了新的Asset Catalog <img src="http://ww2.sinaimg.cn/large/730c8cdfgw1ecitxssv9yj208400jgle.jpg" title="Asset Catalog" alt="Asset Catalog" />以解决图片管理的问题。<br/>
+这次主要用到的还是它可视化处理图片拉伸的这个功能。</p>
+
+<h4>正文</h4>
+
+<p>在Xcode5之前，拉伸图片的话主要用到的方法resizableImageWithCapInsets这个方法。现在直接妥妥拽拽就可以实现这个方法了。具体操作看官方文档或者Google一下就会有一大堆的操作资料。</p>
+
+<p>新建一个Image set的话，导入图片，Xcode会自动识别尺寸然后匹配。<br/>
+<img src="http://ww4.sinaimg.cn/large/730c8cdfgw1eciu8sq2b0j20ev044mx4.jpg" title="Image set" alt="Image set" /></p>
+
+<p>使用Slicing进行图片的拉伸设置之后。运行应用，你会发现在Retina 4-inch的设备下并没有达到想要的效果，而只是单纯的把整张图片进行了变形拉伸。  <br/>
+<img src="http://ww1.sinaimg.cn/large/730c8cdfgw1eciumso7raj208w09gmxd.jpg" title="运行效果" alt="运行效果" /></p>
+
+<p>这时候需要设置支持的Devic，默认是Universal(通用)。选择成Device Specific并勾选Retina 4-inch。<br/>
+<img src="http://ww2.sinaimg.cn/large/730c8cdfgw1eciuew28wlj20960623yn.jpg" title="设置" alt="设置" />
+<img src="http://ww3.sinaimg.cn/large/730c8cdfgw1eciur1fl6kj207605v74d.jpg" title="设置" alt="设置" /></p>
+
+<p>这是需要倒入一张新的图片用于Retina 4-inch的设备。<br/>
+<img src="http://ww3.sinaimg.cn/large/730c8cdfgw1eciv0lslmsj20f60bbmxt.jpg" title="R4" alt="R4" /></p>
+
+<p>设置好可拉伸区域之后重新运行。就可以看到想要的的效果。
+<img src="http://ww1.sinaimg.cn/large/730c8cdfgw1eciv3lclmaj208w08rt8x.jpg" title="运行效果" alt="运行效果" /></p>
+</div>
+  
+  
+
+</article>
+
+
+    <article class="post">
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/01/13/shan-chu-xcodeli-mian-de-teams/">删除Xcode里面多余的Teams</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-01-13T09:26:00+08:00" pubdate data-updated="true">Jan 13<span>th</span>, 2014</time>
+        
+         | <a href="/blog/2014/01/13/shan-chu-xcodeli-mian-de-teams/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>打开Xcode的Organizer，你可能会发现自己加入过很多的Team，要是你只想保留其中的一两个，要删掉其他的部分，你只需要打开钥匙串——>左边栏中的钥匙串选择登陆——>种类选择所有项目——>找到那些没用的证书删除，重启Xcode即可。</p>
+</div>
+  
+  
+
+</article>
 
 
     <article class="post">
@@ -469,86 +561,6 @@ pod "TPKeyboardAvoiding"
 <h4>结束语</h4>
 
 <p>使用Mockups来绘制草图还是很方便的，提供的控件库也基本能满足需要，如果在以后工作中碰到例如绘制草图这样的工作任务，Mockups应该会成为我的选择。之前也有接触另一款应用<a href="http://popapp.in/">POP</a>，POP需要对所绘制的草图进行拍摄，然后再图片上增加交互动作就可以进行交互，也许这两款工具结合使用能收到不错的效果。</p>
-</div>
-  
-  
-
-</article>
-
-
-    <article class="post">
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/07/16/product-design/">产品设计之工具篇</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-07-16T14:39:00+08:00" pubdate data-updated="true">Jul 16<span>th</span>, 2013</time>
-        
-         | <a href="/blog/2013/07/16/product-design/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>今天和在做产品策划的高中舍友闲聊，推荐了三种他工作中用到的软件，抽空试试。<br/>
-1.  <a href="http://www.axure.com/">Axure</a><br/>
-2.  <a href="http://uid.cdc.tencent.com/">UIDesigner</a><br/>
-3.  <a href="http://balsamiq.com/">Balsamiq Mockups</a></p>
-</div>
-  
-  
-
-</article>
-
-
-    <article class="post">
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/07/12/ioschang-yong-de-di-san-fang-kai-yuan-ku/">iOS开发中常用的第三方开源库</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-07-12T10:07:00+08:00" pubdate data-updated="true">Jul 12<span>th</span>, 2013</time>
-        
-         | <a href="/blog/2013/07/12/ioschang-yong-de-di-san-fang-kai-yuan-ku/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h4>本篇持续更新中…</h4>
-
-<p>作为拿来主义者，开发过程中更多的是想要利用大量的已实现的第三方开源库来提高应用开发速度和应用开发质量。<br/>
-下文列出自己遇到的看到的第三方开源库。</p>
-
-<h4>MKNetworkKit</h4>
 </div>
   
   
