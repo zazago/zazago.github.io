@@ -4,7 +4,7 @@
   <title><![CDATA[zaza]]></title>
   <link href="http://zazago.github.io/atom.xml" rel="self"/>
   <link href="http://zazago.github.io/"/>
-  <updated>2014-02-25T21:28:19+08:00</updated>
+  <updated>2014-02-27T20:31:57+08:00</updated>
   <id>http://zazago.github.io/</id>
   <author>
     <name><![CDATA[zaza]]></name>
@@ -12,6 +12,72 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[开源项目]]></title>
+    <link href="http://zazago.github.io/blog/2014/02/27/kai-yuan-xiang-mu/"/>
+    <updated>2014-02-27T11:47:00+08:00</updated>
+    <id>http://zazago.github.io/blog/2014/02/27/kai-yuan-xiang-mu</id>
+    <content type="html"><![CDATA[<p>整理github上好用的开源项目</p>
+
+<p>1.瀑布流</p>
+
+<ul>
+<li><a href="https://github.com/chiahsien/CHTCollectionViewWaterfallLayout">https://github.com/chiahsien/CHTCollectionViewWaterfallLayout</a></li>
+</ul>
+
+
+<p>2.富文本编辑</p>
+
+<ul>
+<li><a href="https://github.com/kishikawakatsumi/SECoreTextView">https://github.com/kishikawakatsumi/SECoreTextView</a></li>
+</ul>
+
+
+<p>3.图片查看器</p>
+
+<ul>
+<li><a href="https://github.com/mwaterfall/MWPhotoBrowser">https://github.com/mwaterfall/MWPhotoBrowser</a></li>
+</ul>
+
+
+<p>4.图片模糊</p>
+
+<ul>
+<li><a href="https://github.com/aaronn/ANBlurredImageView">https://github.com/aaronn/ANBlurredImageView</a></li>
+</ul>
+
+
+<p>5.输入框</p>
+
+<ul>
+<li><a href="https://github.com/andreamazz/UITextField-Shake%EF%BC%88%E8%BE%93%E5%85%A5%E6%A1%86%E6%99%83%E5%8A%A8%EF%BC%89">https://github.com/andreamazz/UITextField-Shake%EF%BC%88%E8%BE%93%E5%85%A5%E6%A1%86%E6%99%83%E5%8A%A8%EF%BC%89</a></li>
+</ul>
+
+
+<p>6.提示效果</p>
+
+<ul>
+<li><a href="https://github.com/toursprung/TSMessages">https://github.com/toursprung/TSMessages</a></li>
+<li><a href="https://github.com/jdg/MBProgressHUD">https://github.com/jdg/MBProgressHUD</a></li>
+</ul>
+
+
+<p>7.聊天界面</p>
+
+<ul>
+<li><a href="https://github.com/jessesquires/MessagesTableViewController">https://github.com/jessesquires/MessagesTableViewController</a></li>
+</ul>
+
+
+<p>8.照相机</p>
+
+<ul>
+<li><a href="https://github.com/danielebogo/DBCamera">https://github.com/danielebogo/DBCamera</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Asset Catalog使用笔记]]></title>
