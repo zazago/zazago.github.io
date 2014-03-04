@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 产品 | zaza]]></title>
+  <link href="http://zazago.github.io/blog/categories/chan-pin/atom.xml" rel="self"/>
+  <link href="http://zazago.github.io/"/>
+  <updated>2014-03-04T16:44:04+08:00</updated>
+  <id>http://zazago.github.io/</id>
+  <author>
+    <name><![CDATA[zaza]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[产品设计语录]]></title>
+    <link href="http://zazago.github.io/blog/2014/02/28/product-quotation/"/>
+    <updated>2014-02-28T10:54:00+08:00</updated>
+    <id>http://zazago.github.io/blog/2014/02/28/product-quotation</id>
+    <content type="html"><![CDATA[<h5>经典语录</h5>
+
+<p>1.无论是产品发展还是流行趋势，总会有这样一种轮回：从简到繁，再回归于简。</p>
+
+<p>2.产品不是功能的集合，每个产品都存在其精神的部分。</p>
+]]></content>
+  </entry>
+  
+</feed>

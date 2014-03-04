@@ -4,7 +4,7 @@
   <title><![CDATA[Category: iOS | zaza]]></title>
   <link href="http://zazago.github.io/blog/categories/ios/atom.xml" rel="self"/>
   <link href="http://zazago.github.io/"/>
-  <updated>2014-02-27T20:33:37+08:00</updated>
+  <updated>2014-03-04T16:44:04+08:00</updated>
   <id>http://zazago.github.io/</id>
   <author>
     <name><![CDATA[zaza]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[开源项目]]></title>
+    <title type="html"><![CDATA[开源项目整理]]></title>
     <link href="http://zazago.github.io/blog/2014/02/27/kai-yuan-xiang-mu/"/>
     <updated>2014-02-27T11:47:00+08:00</updated>
     <id>http://zazago.github.io/blog/2014/02/27/kai-yuan-xiang-mu</id>
@@ -51,7 +51,7 @@
 <p>5.输入框</p>
 
 <ul>
-<li><a href="https://github.com/andreamazz/UITextField-Shake">https://github.com/andreamazz/UITextField-Shake</a> （输入框晃动）</li>
+<li><a href="https://github.com/andreamazz/UITextField-Shake">https://github.com/andreamazz/UITextField-Shake</a></li>
 </ul>
 
 
@@ -60,6 +60,7 @@
 <ul>
 <li><a href="https://github.com/toursprung/TSMessages">https://github.com/toursprung/TSMessages</a></li>
 <li><a href="https://github.com/jdg/MBProgressHUD">https://github.com/jdg/MBProgressHUD</a></li>
+<li><a href="https://github.com/cruffenach/CRToast">https://github.com/cruffenach/CRToast</a></li>
 </ul>
 
 
@@ -74,6 +75,37 @@
 
 <ul>
 <li><a href="https://github.com/danielebogo/DBCamera">https://github.com/danielebogo/DBCamera</a></li>
+</ul>
+
+
+<p>9.边栏效果</p>
+
+<ul>
+<li><a href="https://github.com/romaonthego/REFrostedViewController">https://github.com/romaonthego/REFrostedViewController</a></li>
+<li><a href="https://github.com/romaonthego/RESideMenu">https://github.com/romaonthego/RESideMenu</a></li>
+<li><a href="https://github.com/rnystrom/RNFrostedSidebar">https://github.com/rnystrom/RNFrostedSidebar</a></li>
+</ul>
+
+
+<p>10.网页加载进度指示</p>
+
+<ul>
+<li><a href="https://github.com/ninjinkun/NJKWebViewProgress">https://github.com/ninjinkun/NJKWebViewProgress</a></li>
+</ul>
+
+
+<p>11.图片缓存</p>
+
+<ul>
+<li><a href="https://github.com/path/FastImageCache">https://github.com/path/FastImageCache</a></li>
+<li><a href="https://github.com/rs/SDWebImage">https://github.com/rs/SDWebImage</a></li>
+</ul>
+
+
+<p>12.AutoLayout</p>
+
+<ul>
+<li><a href="https://github.com/smileyborg/UIView-AutoLayout">https://github.com/smileyborg/UIView-AutoLayout</a></li>
 </ul>
 
 ]]></content>
@@ -149,6 +181,8 @@
 <p>6.<a href="https://github.com/qfish/XAlign">给强迫症患者</a></p>
 
 <p>7.<a href="https://github.com/neonichu/BBUDebuggerTuckAway">编辑代码的过程中自动隐藏Debug窗口</a></p>
+
+<p>8.<a href="https://github.com/supermarin/Alcatraz">插件管理</a></p>
 ]]></content>
   </entry>
   
